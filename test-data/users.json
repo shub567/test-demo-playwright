@@ -1,0 +1,16 @@
+{
+  "loginScenarios": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "type": "positive",
+      "expectedResult": "success"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "type": "negative",
+      "expectedResult": "locked"
+    }
+  ]
+}

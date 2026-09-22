@@ -1,0 +1,16 @@
+{
+  "ageScenarios": [
+    {
+      "age": "17",
+      "type": "below-minimum"
+    },
+    {
+      "age": "18",
+      "type": "minimum"
+    },
+    {
+      "age": "19",
+      "type": "above-minimum"
+    }
+  ]
+}
