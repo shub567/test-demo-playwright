@@ -1,8 +1,8 @@
-const reusableUser = {
+const standardLoginUser = {
   username: 'standard_user',
   password: 'secret_sauce',
 };
 
 module.exports = {
-  reusableUser,
+  standardLoginUser,
 };
