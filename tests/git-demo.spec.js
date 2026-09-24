@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Git Demo Test', async ({ page }) => {
+test('Git demo test - MAIN VERSION', async ({ page }) => {
   await page.goto('/');
   await expect(page).toHaveTitle(/Swag Labs/);
 });
